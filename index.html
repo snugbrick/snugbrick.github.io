@@ -46,9 +46,10 @@
     </div>
     <div id="app4"></div>
     <script>
-    var markdownContent = 
-    "\n  # Hi there I'm snugbrick!\n\n  and I Chinese name is 残流光 你也可以叫我圣迹.\n\n  ## 当前项目:\n\n  "; 
-    document.getElementById("mdContent").innerHTML = marked(markdownContent)
+        import marked from 'marked';
+        var markdownContent =
+            "\n  # Hi there I'm snugbrick!\n\n  and I Chinese name is 残流光 你也可以叫我圣迹.\n\n  ## 当前项目:\n\n  ";
+        document.getElementById("mdContent").innerHTML = marked(markdownContent)
     </script>
 </body>
 
