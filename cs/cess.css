@@ -190,7 +190,7 @@ a:active {
 
 .rightContent {
     justify-content: flex-end;
-    align-items:start;
+    align-items: start;
 
     font-size: 120%;
 
@@ -217,23 +217,24 @@ a:active {
     width: 80%;
     height: 200px;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 0 2px 10px rgba(4, 12, 11, 0.2);
+    box-shadow: 0 5px 10px rgba(4, 12, 11, 0.2);
 
     background-color: white;
 
     transition-duration: 0.5s;
     overflow: hidden;
 }
-.content1:hover{
+
+.content1:hover {
     position: absolute;
 
-    top: 1%;
-    left: 8%;
+    top: 2%;
+    left: 10%;
 
-    width: 84%;
-    height: 12%;
+    width: 80%;
+    height: 200px;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 0 2px 10px rgba(4, 12, 11, 0.2);
+    box-shadow: 0 5px 50px rgba(4, 12, 11, 0.2);
 
     background-color: white;
 }
