@@ -2,6 +2,7 @@
 node_modules
 vueOfGithubPage
 /dist
+/vueNew
 
 
 # local env files
