@@ -33,7 +33,7 @@ body {
     /*上面直角下面圆角*/
     background: linear-gradient(to right, #dbfffd, #e8ffe9);
     /*渐变背景*/
-    box-shadow: 0 2px 10px rgba(7, 27, 26, 0.2);
+    box-shadow: 0 2px 5px rgba(7, 27, 26, 0.2);
     /*box阴影*/
 
     z-index: 1;
